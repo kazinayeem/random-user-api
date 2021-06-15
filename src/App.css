@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  /* background-color: rgb(153, 153, 153); */
+}
+
+.maintext {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 58, 216);
+  font-size: 30px;
+  font-style: italic;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.image {
+  border: 2px solid tomato;
+  border-radius: 112px;
+  box-shadow: 7px 12px 38px #ff5200bf;
+  transition: all 1s;
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.image:hover {
+  border: 2px solid tomato;
+  border-radius: 300px;
+  box-shadow: 7px 12px 38px #13bbeebf;
+  transform: scale(1.1);
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  transition: all 1s;
+}
+
+main{
+  border-radius: 10px;
+  border: 2px solid tomato;
+  
+}
+
+
